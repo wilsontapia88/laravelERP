@@ -78,13 +78,13 @@ return [
 
 ];
 
-depois que e iniciada o job e dentro do job vai te uma requsicao, como pode ter n pedidos e melhor por jobs assim ele criara uma fila de atualizacoes sem prejudicar a performance do sistema.
+depois de o server esta iniciado e so rodar os schedule
 
-depois de o server esta iniciado e so rodar os queue
+php artisan queue:work
 
-php artisan queue:work 
+depois que e iniciada o job e dentro do job vai te uma requisicao, como pode ter n pedidos e melhor por jobs assim ele criara uma fila de atualizacoes sem prejudicar a performance do sistema.
 
-e começara a disparar os request para atualizar os outros server tambem pode ter n server
+o job começara a disparar os request para atualizar os outros server tambem pode ter n server
 
 Brigado!!
 
